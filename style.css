@@ -49,6 +49,8 @@ h1{
     text-transform: uppercase;
 
     transform: box-shadow 20ms linear;
+
+    cursor: pointer;
 }
 
 .bnt:focus{
@@ -61,4 +63,5 @@ h1{
 
 .btn:active{
     box-shadow: none;
+    transform: scale(0.9);
 }
